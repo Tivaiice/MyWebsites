@@ -17,6 +17,7 @@
   width: 100vw;  
   min-height: 100vh;
   /*กว้างยาวเต็มจอ*/
+  
 }
 
 nav {
@@ -42,8 +43,10 @@ nav ul li a {
 
 .condiv {
   padding: 100px;
-  background-color :#f4f5f9;
-  flex: var(--condiv-flex)
+  flex: var(--condiv-flex);
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .home { 
@@ -73,10 +76,11 @@ nav ul li a {
 }
 
 .social i:hover {
-  color : #333333;
+  color : #007AFF;
 }
 
 .typingeffect {
   font-size: 50px;
   margin-bottom: 30px;
+  color : aliceblue;
 }
